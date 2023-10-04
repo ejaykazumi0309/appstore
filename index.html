@@ -1,288 +1,358 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apps Store</title>
+
 <style>
-
-body {
-    background-color: #0E2433; 
-}
-
-.container1 {
-    background-color: white;
-    width: 150px;
-    height: 200px;
-    margin-top: 50px;
-    box-shadow: 0px 0px 15px 0px #00ccff;
-    border-radius: 10px;
-    margin-left: 17px;
-    border-color: #00ccff;
-    display: inline-block;
     
-}
+    body {
+       background-color: #222; 
+    }
 
-.container3 {
-    background-color: white;
-    width: 150px;
-    height: 200px;
-    margin-top: 50px;
-    box-shadow: 0px 0px 15px 0px #00ccff;
-    border-radius: 10px;
-    margin-left: -164px;
-    border-color: #00ccff;
-    
-    
-}
-.container4 {
-    background-color: white;
-    width: 150px;
-    height: 200px;
-    box-shadow: 0px 0px 15px 0px #00ccff;
-    border-radius: 10px;
-    margin-left:0px;
-    border-color: #00ccff;
-    margin-top: -200px;
-    text-align: center;
-    
-}
+    .container{
+        max-height: 150px;
+        display: flex;
+        overflow-x: auto;
+        margin-top: px;
+        border: 2px solid #00ccff;
+        background-color: none;
+        
+    }
 
+   .box1 {
+       background-color: #FFFFF;
+       border: 2px solid #00ccff;
+       height: 120px;
+       width: 120px;
+       margin-right: 8px;
+       max-width: 170px;
 
-
-.PC {
-    width: 150px;
-    margin-top: px;
-    display: inline-block;
-    border-radius: 3px;
-}
-
-.PC5 {
-    width: 150px;
-    margin-top: 0px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 0;
-}
-
-.PC6 {
-    width: 150px;
-    margin-top: 0px;
-    display: inline-block;
-    border-radius: 10px;
-    margin-left: 0px;
-    padding-right: -px;
-}
-
-.PC1 {
-    width: 150px;
-    height: 140px;
-    margin-top: -2px;
-    display: inline-block;
-    border-radius: 5px;
-}
-
-
-.pc-title {
-    font-size: 16px;
-    display: inline-block;
-    margin-top: -600px;
-    font-weight: bold;
-    margin-left: 35px;
-    
-}
-
-.pc-title1 {
-    font-size: 16px;
-    display: inline-block;
-    margin-top: -500px;
-    font-weight: bold;
-    margin-left: 50px;
-    
-}
-
-.pc-title9 {
-    font-size: 16px;
-    display: inline-block;
-    margin-top: -500px;
-    font-weight: bold;
-    padding-left: 10px;
-    
-}
-
-.pc-title10 {
-    font-size: 16px;
-    display: inline-block;
-    margin-top: -500px;
-    font-weight: bold;
-    padding-left: 50px;
-    
-}
-
-
-
-.btn1 {
-    width: 150px;
-    height: 30px;
-    border-radius: 3px;
-    margin-top: -23px;
-    border-color: #00ccff;
-    border: none;
-    color: #fff;
-    font-weight: bold;
-    background-color: #00ccff;
-}
-
-.btn5 {
-    width: 150px;
-    height: 30px;
-    border-radius: 3px;
-    margin-top: 2px;
-    border-color: #00ccff;
-    border: none;
-    color: #fff;
-    font-weight: bold;
-    background-color: #00ccff;
-}
-
-
-.container2 {
-    background-color: white;
-    width: 150px;
-    height: 200px;
-    box-shadow: 0px 0px 15px 0px #00ccff;
-    border-radius: 10px;
-    margin-left: 180px;
-    border-color: #00ccff;
-    margin-top: -200px;
-    
-}
-
-header {
-    background-color: black;
-    width: 362px;
-    margin-left: -10px;
-    height: 50px;
-    margin-top: -40px
-}
-
-a {
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    margin-left: 15px;
-    margin-top: -20px;
-}
-
-.head {
-    text-align: center;
-    display: inline-block;
-    margin-left: -30px;
-    margin-top: -20px;
-}
-
-.burger {
-    margin-left: 150px;
-    font-size: 20px;
-}
-
-h1 {
-    color: #00ccff;
-    margin-left: 40px;
-    text-shadow: 0 0 10px #00baff, 0 0 20px #00baff, 0 0 30px #00baff;
-    border-color: #00ccff;
-    font-size: 50px;
-    
-}
-
-.h1 {
-    color: #00ccff;
-    margin-left: 100px;
-    text-shadow: 0 0 10px #00baff, 0 0 20px #00baff, 0 0 30px #00baff;
-    border-color: #00ccff;
-    font-size: 50px;
-    margin-top: -30px;
-    
-}
-
-
-
-
-.text-1 {
-    color: #00ccff;
-    margin-top: 90px;
-    font-weight: bold;
-    font-size: 25px;
-}
-
-.shesh {
-  border-color: black;
-  padding-left:5px;
-  border-color: white;
-  text-align: center;
-  margin-top: -50px;
-    
-}
-
-    
-}
-
-.mm {
-    width: 88px;
+   }
+   
+   .pic1 {
+     width: 120px;
+    margin-top: -5px;
+    height: 100px;
+    margin-bottom: 0px;
+ }
+   
+   .uwu {
+       background-color: white;
+       width: 140px;
+       height: 150px;
+       margin-left: 15px;
+       margin-top: 20px;
+       box-shadow: 0px 0px 10px 0px black;
+   }
    
    
+   .uwu {
+       background-color: white;
+       width: 140px;
+       height: 150px;
+       margin-left: 15px;
+       margin-top: 20px;
+       box-shadow: 0px 0px 10px 0px black;
+   }
    
-}
+   
+   .flash {
+       margin-top: 10px;
+       font-weight: bold;
+       color: white;
+   }
+   
+   .flash1 {
+       margin-top: 30px;
+       font-weight: bold;
+       color: white;
+   }
+   
+   
+   .banner {
+       background-color: #222;
+       width: 360px;
+       height: 50px;
+       margin-top: -10px;
+       margin-left: -8px;
+       border-bottom: 2px solid #00ccff;
+       position: fixed;
+   }
+   
+   .logo {
+       width: 50px;
+       margin-left: 150px;
+       display: inline-block;
+       
+   }
+   
+   .order {
+       font-weight: bold;
+       margin-top: -50px;
+       width: 120px;
+       
+   }
+   
+   .promo {
+       display: flex;
+       flex-direction: column;
+       margin-top: -10px;
+   }
+   
+   .jjjj {
+       width: 20px;
+       background-color: #222;
+       width: 150px;
+       margin-left: 10px;
+       height: 150px;
+       margin-top: 30px;
+       display: inline-block;
+       border: 2px solid #00ccff;
+   }
 
-.contact1 {
-    margin-left: 15px;
-}
 
-
+.jjjj1 {
+       width: 20px;
+       background-color: #222;
+       width: 150px;
+       margin-left: 185px;
+       height: 150px;
+       margin-top: -154px;
+       display: inline-block;
+       border: 2px solid #00ccff;
+   }
+   
+   .ejay {
+       background-color: #;
+       height: 50px;
+       margin-top: 82px;
+       
+   }
+   
+   .hshs {
+       
+       width: 360px;
+       margin-left: -8px;
+       margin-top: 15px;
+       border-top: 2px solid #00ccff;
+       border-bottom: 2px solid #00ccff;
+       
+   }
+   
+   .pic2 {
+       width: 150px;
+       height: 125px;
+      
+   }
+   
+    .pic3 {
+       width: 150px;
+       margin-top: px;
+       height: 125px;
+      
+   }
+   
+   .title5 {
+       margin: 0px;
+       display: inline-block;
+       margin-top: -150px;
+   }
+   
+   .humb {
+       color: white;
+       font-size: 30px;
+       margin-top: -50px;
+       margin-left: 5px;
+       
+   }
+   
+   .cont {
+       margin-top: -58px;
+       color: white;
+       margin-left: 290px;
+      padding: 0px;
+      font-weight: bold;
+       
+   }
+   
+   .cont1 {
+       margin-top: -35px;
+       color: white;
+       margin-left: 40px;
+      padding: 0px;
+      font-weight: bold;
+       
+   }
+   
+   .install {
+       margin-top: -10px;
+       width: 150px;
+       font-weight: bold;
+   }
+  
+ 
+   .install1 {
+       margin-top: -50px;
+       width: 150px;
+       font-weight: bold;
+   }
+  
 
 
 </style>
 
+
 </head>
-
 <body>
-    <h1>Ejay's Apps </h1>
-<h1 class="h1">Store</h1>
+    
+    <div class="banner">
+        
+        
+       
+    
+    <img class="logo" src="logo.jpeg" alt="">
+    
+   <p class="humb">≡</p> 
+   
+   <p class="cont" href="appstore.html">Contact</p>
+   
+   <p class="cont1" href="appstore.html">Home</p>
+   
+    
+    </div>
+    
+    <img class="hshs" src="bann.jpg">
+    
+<p class="flash">HOT APPS:</p>
+<div class="container">
+<div class="box1"><IMG   class="pic1" src="dora.png">
 
+<button class="order" href="info.html">Install</button>
 
-<div class="container1">
-<img class="PC"src="techtool.jpg">
-<p class="pc-title">TechToolKit</p>
-<button class="btn1" onclick="location.href='TechToolKit_1_1.0.apk'">Download</button>
-</div>
-<div class="container2">
-  <img class="PC1"src="dora.png">
-<p class="pc-title1">DavOr Article</p>
-<button class="btn1" onclick="location.href='info.html'">Download</button>
-
-<div class="container3">
-<img class="PC5"src="blank.jpeg">
-<p class="pc-title10">NONE</p>
-<button class="btn5" onclick="location.href='cable.html'">Download</button>
-</div>
-
-<div class="container4">
-    <img class="PC6" src="blank.jpeg">
-<p class="pc-title9">NONE</p>
-<button class="btn5" onclick="location.href='QUIZ.html'">Download</button>
-
-<div class="container3">
-<img class="PC5"src="blank.jpeg">
-<p class="pc-title10">NONE</p>
-<button class="btn5" onclick="location.href='cable.html'">Download</button>
 </div>
 
-<div class="container4">
-    <img class="PC6" src="blank.jpeg">
-<p class="pc-title9">NONE</p>
-<button class="btn5" onclick="location.href='QUIZ.html'">Download</button>
+<div class="box1">
+<img class="pic1" src="techtool.jpg">
+<button class="order" onlick="TechToolKit_1_1.0.apk">Install</button>
+
+</div>
+
+<div class="box1"><IMG   class="pic1" src="burgeithfries.jpeg">
+<button class="order">Install</button>
+</div>
+
+<div class="box1"><IMG   class="pic1" src="cokeandfries.jpeg">
+<button class="order">Install</button>
+</div>
+
+<div class="box1"><IMG   class="pic1" src="cokeandfries.jpeg">
+<button class="order">Install</button>
+</div>
+
+<div class="box1"><IMG   class="pic1" src="cokeandfries.jpeg">
+<button class="order">Install</button>
+</div>
+</div>
+
+<!-- HORIZONTAL -->
+<p class="flash1">APP LIST:</p>
+<div class="promo">
+    
+    <div class="jjjj">
+        
+        <img class="pic2" src="dora.png">
+    
+    <button class="install" class="info.html">Install</button>
     
 </div>
-
+    
+    <!-- BOX2 -->
+    
+    <div class="jjjj1">
+        <img class="pic3" src="techtool.jpg">
+    <button class="install1" class="TechToolKit_1_1.0.apk">Install</button>
+        <div class="ejay">    
+        
+                
+ </div>
+    <!-- BOXS 3 -->
+    </div>
+    <div class="jjjj">
+        
+        <img class="pic2" src="">
+        <button class="install">Install</button>
+    <div class="ejay">        
+        
+    </div>
+    
+    <!-- BOXS 4 -->
+    
+    </div>
+    <div class="jjjj1">
+        <img class="pic2" src="Yumburger-Solo.png">   
+          <button class="install">Install</button>
+    <div class="ejay">
+        
+      </div>
+    </div>
+    
+    <!-- BOX 5 -->
+    <div class="jjjj">
+    <img class="pic2" src="Yumburger-Solo.png">   
+          <button class="install">Install</button>
+    <div class="ejay">
+    </div>
+    </div>
+    
+    <!-- BOX6 -->
+    
+    <div class="jjjj1">
+    <img class="pic2" src="Yumburger-Solo.png">   
+          <button class="install">Install</button>
+    <div class="ejay">
+        
+    </div>
+    </div>
+    
+    <!-- BOX7 -->
+    
+    <div class="jjjj">
+        <img class="pic2" src="Yumburger-Solo.png">   
+          <button class="install">Install</button>
+         <div class="ejay">
+    </div>
+    </div>
+    
+    <!-- BOX8 -->
+    
+    <div class="jjjj1">
+        <img class="pic2" src="Yumburger-Solo.png">   
+          <button class="install">Install</button>
+    <div class="ejay">
+    </div>
+    </div>
+    
+    
+    
+    <!-- BOX7 -->
+    
+    <div class="jjjj">
+        <img class="pic2" src="Yumburger-Solo.png">   
+          <button class="install">Install</button>
+         <div class="ejay">
+    </div>
+    </div>
+    
+    <!-- BOX8 -->
+    
+    <div class="jjjj1">
+        <img class="pic2" src="Yumburger-Solo.png">   
+          <button class="install">Install</button>
+    <div class="ejay">
+    </div>
+    </div>
+    
+</div>
 
 
 </body>
